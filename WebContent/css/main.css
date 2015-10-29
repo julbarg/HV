@@ -1,0 +1,145 @@
+* {
+	/* font-family: 'Roboto Condensed', sans-serif; */
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+div.container {
+	width: 1080px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div.left {
+	width: 300px;
+	float: left;
+	background-color: #EDEDED;
+	padding: 20px;
+}
+
+div.main {
+	width: 700px;
+	float: left;
+	background-color: #F9F9F9;
+	padding: 20px;
+}
+
+div.img_profile {
+	text-align: center;
+}
+
+h1.name {
+	text-align: center;
+	color: #126786;
+	margin-top: 1px;
+	margin-bottom: 1px;
+	font-size: 48px;
+}
+
+h2.profession {
+	text-align: center;
+	color: #00000;
+	margin-top: -12px;
+	margin-bottom: 0px;
+}
+
+h1.about {
+	color: #126786;
+	text-align: center;
+}
+
+h2.description {
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+h2.item {
+	color: #126786;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+h2.title {
+	text-align: left;
+	color: #126786;
+	padding-right: 20px;
+	border-bottom: 1px solid #126786;
+	position: relative;
+	font-size: 36px;
+	margin-bottom: 0px;
+}
+
+p {
+	font-size: 20px;
+	text-align: justify;
+}
+
+div.table {
+	display: table;
+	width: auto;
+	background-color: #eee;
+	border: 1px solid #666666;
+	border-spacing: 5px;
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div.table-row {
+	display: table-row;
+	width: auto;
+	clear: both;
+	background-color: #ccc;
+}
+
+div.table-col {
+	float: left; /*fix for  buggy browsers*/
+	display: table-column;
+	padding: 5px;
+}
+
+div.anio {
+	background-image: url("/HV/img/anio.png");
+	background-size: 100px;
+	background-repeat: no-repeat;
+	height: 50px;
+	width: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	color: #FFF;
+	font-size: 32px;
+	padding-left: 15px;
+	padding-top: 4px;
+}
+
+h2.job-title {
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+p.job-field {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	font-size: 14px;
+}
+
+p.job-date {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	font-size: 14px;
+}
+
+div.col-anio {
+	display: block;
+	padding-top: 13px;
+	padding-left: 20px;
+}
+
+div.job-description {
+	height: auto;
+}
+
+ul.job-activities {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-left: 25px;
+}
