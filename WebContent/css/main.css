@@ -134,6 +134,12 @@ h2.job-title {
 	margin-bottom: 0px;
 }
 
+h3.job-company{
+	margin-top: 0px;
+	margin-bottom: 5px;
+	font-weight: normal;
+}
+
 p.job-field {
 	margin-top: 0px;
 	margin-bottom: 0px;
@@ -243,4 +249,22 @@ div.languages {
 	width: 50;
 	margin-left: auto;
 	text-align: right;
+}
+
+div.international{
+	padding-left: 30px;
+	padding-right: 20px;
+	padding-top: 10px;
+	padding-bottom: 5px;
+	font-size: 20px;
+	
+}
+
+div.international p{
+	margin-top: 2px;
+	margin-bottom: 2px;
+}
+
+.blue{
+	color: #126786 !important;
 }
