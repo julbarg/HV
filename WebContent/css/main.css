@@ -3,17 +3,31 @@
 	font-family: 'Yanone Kaffeesatz', sans-serif;
 }
 
+body {
+	margin-top: 30px;
+	margin-bottom: 30px;
+	background-image: url("../img/background.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
 div.container {
 	width: 1080px;
 	margin-left: auto;
 	margin-right: auto;
 	overflow: hidden;
 	position: relative;
+	height: auto;
+	background-color: #EDEDED;
+	-webkit-box-shadow: 5px 5px 6px 0px rgba(0, 0, 0, 0.75);
+	-moz-box-shadow: 5px 5px 6px 0px rgba(0, 0, 0, 0.75);
+	box-shadow: 5px 5px 6px 0px rgba(0, 0, 0, 0.75);
 }
 
 div.left {
 	width: 300px;
-	height: 100%;
+	height: auto;
 	float: left;
 	background-color: #EDEDED;
 	padding: 20px;
@@ -57,7 +71,7 @@ h2.description {
 }
 
 h2.item {
-	color: #126786;
+	color: #126786 !important;
 	margin-top: 0px;
 	margin-bottom: 0px;
 }
@@ -102,7 +116,7 @@ div.table-col {
 }
 
 div.anio {
-	background-image: url("/HV/img/anio.png");
+	background-image: url("../img/anio.png");
 	background-size: 100px;
 	background-repeat: no-repeat;
 	height: 50px;
@@ -195,9 +209,38 @@ div.flag {
 	width: 600px;
 	margin-left: auto;
 	margin-right: auto;
+	display: inline-block;
 }
 
 p.language_description {
 	text-align: center;
 	font-size: 16px;
+}
+
+.social {
+	color: black;
+	font-size: 22px;
+	vertical-align: text-bottom;
+}
+
+a.asocial {
+	text-decoration: none;
+	color: #126786;
+}
+
+a.about {
+	text-decoration: none;
+	color: black;
+}
+
+h2.hsocial {
+	color: #126786 !important;
+	margin-top: 0px;
+	margin-bottom: 5px;
+}
+
+div.languages {
+	width: 50;
+	margin-left: auto;
+	text-align: right;
 }
